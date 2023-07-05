@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOME | Hot 'N' Spicy</title>
-    <link rel="stylesheet" href="/assests/css/home.css">
-    <link rel="icon" type="image/png" href="/assests/images/front.png" />
-    <link rel="stylesheet" href="/assests/css/preloader.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="icon" type="image/png" href="./images/front.png" />
+    <link rel="stylesheet" href="./css/preloader.css">
 </head>
-<body onload="slider()">
-    <!---------preloader----------->
+<body onload=" slider()">
+    <! ---------preloader----------->
     <div class="loader">
         <span class="spinner"></span>
     </div>
@@ -24,21 +24,21 @@
 
     <div class="banner">
         <div class="slider">
-            <img src="/assests/images/pic3.jpg" id="slideImg">
+            <img src="./images/pic3.jpg" id="slideImg">
         </div>
         <div class="overlay">
             <header>
             <div class="navbar">
                 <div class="logo-container">
                     <div class="logo">
-                        <a href="home.php">
+                        <a href="./index.php">
                         <div class="front">
                             
-                        <img src="/assests/images/front.png" alt="Logo Front">
+                        <img src="./images/front.png" alt="Logo Front">
                         </div></a>
 
                         <div class="back">
-                            <img src="/assests/images/back.png" alt="Logo Back">
+                            <img src="./images/back.png" alt="Logo Back">
                         </div>
                         
                     </div>
@@ -48,16 +48,16 @@
                     <nav>
                         <div class="menu-icons">
                             <ul>
-                                <li><a href="/home.php">HOME</a></li>  
-                                <li><a href="/Aboutus.php">ABOUT US</a></li>  
-                                <li><a href="menu.php">MENU</a></li>  
-                                <li><a href="/services.php">SERVICES</a></li> 
-                                <li><a href="tablereserve.php">BOOK A TABLE</a></li>  
-                                <li><a href="contact.php">CONTACT</a></li>
+                                <li><a href="./php/home.php">HOME</a></li>  
+                                <li><a href="./php/Aboutus.php">ABOUT US</a></li>  
+                                <li><a href="./php/menu.php">MENU</a></li>  
+                                <li><a href="./php/services.php">SERVICES</a></li> 
+                                <li><a href="./php/tablereserve.php">BOOK A TABLE</a></li>  
+                                <li><a href="./php/contact.php">CONTACT</a></li>
                                 <div class="header-img">
-                                <li><a href="login.php">
-                                <!-- <li><a href="sample.php">sample</a></li> -->
-                                <img src="/assests/images/loginn - 1.png" width="35px" height="35px">
+                                <li><a href="./php/login.php">
+                                <!-- <li><a href="./php/sample.php">sample</a></li> -->
+                                <img src="./images/loginn - 1.png" width="35px" height="35px">
                                 </a></li>
                                
                                
@@ -75,7 +75,7 @@
                 <h1>Eat Good. Feel Good</h1>
                 <h3> <i>Hundreds of FLAVORS under ONE roof</i></h3>
                 <div>
-                    <a href="menu.php">
+                    <a href="./php/menu.php">
                     <button type="button">ORDER NOW</button></a>
                 </div>
             </div>
@@ -96,9 +96,9 @@
             Chennai's Favourite Restaurant the most exquisite place for tasty food, excellent service, aromatic ambiance,
             and soothing atmosphere. </p>
         </div>
-        <a href="Aboutus.php">
-        <img src="/assests/images/k4.jpg" id="aboutpic1">
-        <img src="/assests/images/k5.jfif" id="aboutpic2"></a>
+        <a href="./php/Aboutus.php">
+        <img src="./images/k4.jpg" id="aboutpic1">
+        <img src="./images/k5.jfif" id="aboutpic2"></a>
     </section>
 
     
@@ -127,40 +127,40 @@
         <!--Images-->
         <div class="menu-item">
             <div class="menu1" title="Mushrom Tikka">
-                <img src="/assests/images/mushroom-tikka.jpg" alt="mushroomtikka" width="250px" height="170px">
+                <img src="./images/mushroom-tikka.jpg" alt="mushroomtikka" width="250px" height="170px">
                 <div class="menu-img-cap">Mushroom Tikka</div>
             </div>
             <div class="menu1" title="Brownie">
-                <img class="img2" src="/assests/images/brownie wit.jpg" alt="brownie" width="250px" height="170px">
+                <img class="img2" src="./images/brownie wit.jpg" alt="brownie" width="250px" height="170px">
                 <div class="menu-img-cap">Brownie</div>
             </div>
             <div class="menu1" title="White Sauce Pasta">
-                <img src="/assests/images/WhiteSaucePasta6-500x375.jpg" alt="whitepasta" width="250px" height="170px">
+                <img src="./images/WhiteSaucePasta6-500x375.jpg" alt="whitepasta" width="250px" height="170px">
                 <div class="menu-img-cap">White Sauce Pasta</div>
             </div>
             <div class="menu1" title="Chicken Fried Rice">
-                <img src="/assests/images/chicken fried rice.jpg" alt="Chickfried" width="250px" height="170px">
+                <img src="./images/chicken fried rice.jpg" alt="Chickfried" width="250px" height="170px">
                 <div class="menu-img-cap">Chicken Fried Rice</div>
             </div>
             <div class="menu1" title="Paneer Tikka">
-                <img src="/assests/images/Paneer-Tikka-Kebabs-04.jpg" alt="pannertikka" width="250px" height="170px">
+                <img src="./images/Paneer-Tikka-Kebabs-04.jpg" alt="pannertikka" width="250px" height="170px">
                 <div class="menu-img-cap">Paneer Tikka</div>
             </div>
             <div class="menu1" title="Veg Pizza">
-                <img src="/assests/images/vegPizza.jpg" alt="vegPizza" width="250px" height="170px">
+                <img src="./images/vegPizza.jpg" alt="vegPizza" width="250px" height="170px">
                 <div class="menu-img-cap">Veg Pizza</div>
             </div>
             <div class="menu1" title="Chicken Dum Biryani">
-                <img src="/assests/images/Chicken dum - Copy.jpg" alt="chickendum" width="250px" height="170px">
+                <img src="./images/Chicken dum - Copy.jpg" alt="chickendum" width="250px" height="170px">
                 <div class="menu-img-cap">Chicken Dum Biryani</div>
             </div>
             <div class="menu1" title="Butter Chicken">
-                <img src="/assests/images/chapati.jpg" alt="butter-chick" width="250px" height="170px">
+                <img src="./images/chapati.jpg" alt="butter-chick" width="250px" height="170px">
                 <div class="menu-img-cap">Butter Chicken</div>
             </div>
             
         </div>
-        <a href="menu.php"> <button class="findmorebtn1">VIEW MORE</button></a>
+        <a href="./php/menu.php"> <button class="findmorebtn1">VIEW MORE</button></a>
     </div>
 
     
@@ -169,14 +169,14 @@
 <!-- Menu Part Over-->
     <div class="hiring">
         <div class="hiring-img">
-            <img src="/assests/images/bggggggggggg.jpg" width="550" height="380">
+            <img src="./images/bggggggggggg.jpg" width="550" height="380">
         </div>
         <div class="hiring-con">
             <h4 class="hiring-con-1">WE'RE HIRING</h4>
             <h1 class="hiring-con-2">JOIN THE HOT 'N' SPICY TEAM</h1>
             <p class="hiring-con-3">If you're looking to work for a company with plenty of opportunity and a great team to work beside, Hot 'N' Spicy is the place for you! 
                 Apply here and learn more about everything we have to offer</p>
-            <a href="/application.php"> <button class="findmorebtn1">APPLY NOW</button></a>
+            <a href="./php/application.php"> <button class="findmorebtn1">APPLY NOW</button></a>
         </div>
     </div>
 
@@ -200,7 +200,7 @@
             </div>
         </div>
         <div id="btn">
-            <a href="tablereserve.php">BOOKING OPEN</a>
+            <a href="./php/tablereserve.php">BOOKING OPEN</a>
         </div>
         
     </div>
@@ -216,29 +216,29 @@
             <h2>SERVICES</h2>
         </div>
         <div class="container1">
-            <div title="High Standard Service" class="card" style="background-image: url(/assests/images/1-1.jpg);">
+            <div title="High Standard Service" class="card" style="background-image: url(./images/1-1.jpg);">
                 
             </div>
-            <div title="Fresh From Farm" class="card" style="background-image: url(/assests/images/1-2.jpg);">
+            <div title="Fresh From Farm" class="card" style="background-image: url(./images/1-2.jpg);">
                 
             </div>
-            <div title="Best Chef" class="card" style="background-image: url(/assests/images/1-3.jpg);">
+            <div title="Best Chef" class="card" style="background-image: url(./images/1-3.jpg);">
                 
             </div>
-            <div title="Handmade Spices" class="card" style="background-image: url(/assests/images/spice-2.webp);">
+            <div title="Handmade Spices" class="card" style="background-image: url(./images/spice-2.webp);">
                 
             </div>
-            <div title="Hygiene Kitchen" class="card" style="background-image: url(/assests/images/1-51.jpg);">
+            <div title="Hygiene Kitchen" class="card" style="background-image: url(./images/1-51.jpg);">
                 
             </div>
-            <div title="Quality Food" class="card" style="background-image: url(/assests/images/1-6.jpg);">
+            <div title="Quality Food" class="card" style="background-image: url(./images/1-6.jpg);">
                 
             </div>
         </div>
         <div class="service-content">
             <h3 class="service-cont">The Hot 'N' Spicy Team give their best to serve perfectly at your table every time you place an order, so that every preparation we make for you turns into a memory you will treasure. Looking for a great restaurant with the best service team, and </h3>
             <span class="service-content-in">HERE WE ARE.....!!!</span><br>
-            <a href="/services.php"> <button class="findmorebtn">TO KNOW MORE</button></a>
+            <a href="./php/services.php"> <button class="findmorebtn">TO KNOW MORE</button></a>
         </div>
     </div>
 
@@ -258,7 +258,7 @@
             <div class="review_card">
 
                 <div class="review_profile">
-                    <img src="/assests/images/Hemanth.jpg">
+                    <img src="./images/Hemanth.jpg">
                 </div>
 
                 <div class="review_text">
@@ -273,7 +273,7 @@
             <div class="review_card">
 
                 <div class="review_profile">
-                    <img src="/assests/images/Kishore.jpg">
+                    <img src="./images/Kishore.jpg">
                 </div>
 
                 <div class="review_text">
@@ -288,7 +288,7 @@
             <div class="review_card">
 
                 <div class="review_profile">
-                    <img src="/assests/images/Sasi.jpg">
+                    <img src="./images/Sasi.jpg">
                 </div>
 
                 <div class="review_text">
@@ -303,7 +303,7 @@
             <div class="review_card">
 
                 <div class="review_profile">
-                    <img src="/assests/images/Dayal.jpg">
+                    <img src="./images/Dayal.jpg">
                 </div>
 
                 <div class="review_text">
@@ -322,7 +322,7 @@
         <div class="give_main">
 
             <div class="give_image">
-                <img src="/assests/images/givebg.jpeg">
+                <img src="./images/givebg.jpeg">
             </div>
 
             <form action="team.php", method="POST">
@@ -354,7 +354,7 @@
 
 <!-- Review Part Over-->
 
-    <a href="https://chat.whatsapp.com/EJRpvauNKen8ua52OPpfNk" target="_blank"><img src="/assests/images/whatsapp.png" id="whatsapp"></a>
+    <a href="https://chat.whatsapp.com/EJRpvauNKen8ua52OPpfNk" target="_blank"><img src="./images/whatsapp.png" id="whatsapp"></a>
 <!-- Footer Part - Malathy -->
 
 <!--
@@ -370,25 +370,25 @@
         </div>
        <div class="div">
         <ul class="menu11">
-            <li><a href='home.php' class="underline-hover-effect">HOME</a></li>
-            <li><a href='Aboutus.php' class="underline-hover-effect">ABOUT US</a></li>
-            <li><a href='services.php' class="underline-hover-effect">SERVICES</a></li>
-            <li><a href='tablereserve.php' class="underline-hover-effect">BOOK TABLE</a></li>
-            <li><a href='contact.php' class="underline-hover-effect">CONTACT US</a></li>
+            <li><a href='./php/home.php' class="underline-hover-effect">HOME</a></li>
+            <li><a href='./php/Aboutus.php' class="underline-hover-effect">ABOUT US</a></li>
+            <li><a href='./php/services.php' class="underline-hover-effect">SERVICES</a></li>
+            <li><a href='./php/tablereserve.php' class="underline-hover-effect">BOOK TABLE</a></li>
+            <li><a href='./php/contact.php' class="underline-hover-effect">CONTACT US</a></li>
         </ul>
         <div class="div">
         <ul class="menu1">
-            <li><a href='menu.php' class="underline-hover-effect">MENU</a></li>
-            <li><a href='application.php' class="underline-hover-effect">CAREER</a></li>
-            <li><a href='menu.php' class="underline-hover-effect">ORDER NOW</a></li>
-            <li><a href='terms&condition.php' class="underline-hover-effect">PRIVACY POLICY</a></li>
-            <li><a href='terms&condition.php' class="underline-hover-effect">TERMS & CONDITIONS</a></li>
+            <li><a href='./php/menu.php' class="underline-hover-effect">MENU</a></li>
+            <li><a href='./php/application.php' class="underline-hover-effect">CAREER</a></li>
+            <li><a href='./php/menu.php' class="underline-hover-effect">ORDER NOW</a></li>
+            <li><a href='./php/terms&condition.php' class="underline-hover-effect">PRIVACY POLICY</a></li>
+            <li><a href='./php/terms&condition.php' class="underline-hover-effect">TERMS & CONDITIONS</a></li>
         </ul>
         </div class="div">
         <footer class="footh" id="contact">
             <div class="foot">
               <div id="video">
-                <video src="/assests/images/Video Poster.mp4" autoplay loop controls muted width="420px">
+                <video src="./images/Video Poster.mp4" autoplay loop controls muted width="420px">
                     Your browser does not support the video tag.
                 </video>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15544.58337206321!2d80.1988317765176!3d13.089942002451888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5264078822719b%3A0xbda01077b89581e2!2sAnna%20Nagar%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1678468867344!5m2!1sen!2sin" width="420" height="200" style="border:0;padding-left: 100px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
@@ -400,10 +400,10 @@
    
     <div id="copy">
         <ul class="social_icon">
-            <li><a href="https://instagram.com/hot'N'spicy-restaurant"><img class="icon-img" src="/assests/images/ig-1.png" ></a></li>
-            <li><a href="https://facebook.com/hot'N'spicy-restaurant"><img src="/assests/images/fb-1.png" width="45px"></a></li>
-            <li><a href="#"><img class="icon-img" src="/assests/images/yt-1.png"></a></li>
-            <li><a href="https://twitter.com/hot'N'spicy-restaurant"><img  src="/assests/images/twi-1.png" width="45px"></a></li>
+            <li><a href="https://instagram.com/hot'N'spicy-restaurant"><img class="icon-img" src="./images/ig-1.png" ></a></li>
+            <li><a href="https://facebook.com/hot'N'spicy-restaurant"><img src="./images/fb-1.png" width="45px"></a></li>
+            <li><a href="#"><img class="icon-img" src="./images/yt-1.png"></a></li>
+            <li><a href="https://twitter.com/hot'N'spicy-restaurant"><img  src="./images/twi-1.png" width="45px"></a></li>
         </ul>
        
        <p id="margin">Copyright &copy; 2023 HOT 'N' SPICY</p>
@@ -416,10 +416,10 @@
 <script>
         var slideImg=document.getElementById("slideImg");
         var images = new Array(
-                        "/assests/images/pic3.jpg",
-                        "/assests/images/pic4.jpg",
-                        "/assests/images/pic5.jpg",
-                        "/assests/images/tan2.jpg"
+                        "./images/pic3.jpg",
+                        "./images/pic4.jpg",
+                        "./images/pic5.jpg",
+                        "./images/tan2.jpg"
         );
         var len = images.length;
         var i = 0;
@@ -478,10 +478,10 @@
 const darkmode = new Darkmode(options);
 darkmode.showWidget();
     </script>
-    <script src="/assests/js/preloader.js"></script>
+    <script src="./js/preloader.js"></script>
     <!-- SCROLL TOP -->
-    <img src="/assests/images/scroll up btn.png" alt="" id="scroll-top-btn">
-    <script src="assests/js/scroll.js"></script>
+    <img src="./images/scroll up btn.png" alt="" id="scroll-top-btn">
+    <script src="./js/scroll.js"></script>
 </body>
 </php>
 
