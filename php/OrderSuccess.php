@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assests/css/OrderSuccess.css">
+    <link rel="stylesheet" href="../css/OrderSuccess.css">
     <title>Order Success | Hot 'N' Spicy</title>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="icon" type="image/png" href="/assests/images/front.png" />
+    <link rel="icon" type="image/png" href="../images/front.png" />
 </head>
 <body>
     <div class="main blur">
@@ -47,8 +47,8 @@
         </div>
 
         
-        <a href="home.php"><button id="next" onclick="closePopup()">Submit Feedback</button><br></a> 
-        <a href="home.php"><button id="skip" onclick="closePopup()">Skip</button></a>
+        <a href="../index.php"><button id="next" onclick="closePopup()">Submit Feedback</button><br></a> 
+        <a href="../index.php"><button id="skip" onclick="closePopup()">Skip</button></a>
     </div>
 
 
