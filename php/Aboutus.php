@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About US | Hot 'N' Spicy</title>
-    <link rel="stylesheet" href="/assests/css/aboutus.css">
-    <link rel="icon" type="image/png" href="/assests/images/front.png" />
-    <link rel="stylesheet" href="/assests/css/preloader.css">
+    <link rel="stylesheet" href="../css/aboutus.css">
+    <link rel="icon" type="image/png" href="../images/front.png" />
+    <link rel="stylesheet" href="../css/preloader.css">
 </head>
 <body onload="slider()">
      <!---------preloader----------->
@@ -16,7 +16,7 @@
     </div>
     <div class="banner">
         <div class="slider">
-            <img src="/assests/images/m2.jpeg" id="slideImg">
+            <img src="../images/m2.jpeg" id="slideImg">
         </div>
         <div class="overlay">
             
@@ -24,11 +24,11 @@
                     <div class="logo-container">
                         <div class="logo">
                             <div class="front">
-                            <a href="home.php">
-                            <img src="/assests/images/front.png" alt="Logo Front">
+                            <a href="../index.php">
+                            <img src="../images/front.png" alt="Logo Front">
                             </div></a>
                             <div class="back">
-                            <img src="/assests/images/back.png" alt="Logo Back">
+                            <img src="../images/back.png" alt="Logo Back">
                             </div>
                         </div>
                     </div> 
@@ -36,16 +36,16 @@
                     <nav>
                         <div class="menu-icons">
                             <ul>
-                                <li><a href="home.php">HOME</a></li>
-                                <li><a href="/Aboutus.php">ABOUT US</a></li>    
-                                <li><a href="menu.php">MENU</a></li> 
-                                <li><a href="/services.php">SERVICES</a></li> 
-                                <li><a href="tablereserve.php">BOOK A TABLE</a></li>  
-                                <li><a href="contact.php">CONTACT</a></li> 
+                                <li><a href="./home.php">HOME</a></li>
+                                <li><a href="./Aboutus.php">ABOUT US</a></li>    
+                                <li><a href="./menu.php">MENU</a></li> 
+                                <li><a href="./services.php">SERVICES</a></li> 
+                                <li><a href="./tablereserve.php">BOOK A TABLE</a></li>  
+                                <li><a href="./contact.php">CONTACT</a></li> 
                                 
                                 <div class="header-img">
-                                    <li><a href="login.php">
-                                        <img src="/assests/images/loginn - 1.png" width="35px" height="35px">
+                                    <li><a href="./login.php">
+                                        <img src="./images/loginn - 1.png" width="35px" height="35px">
                                     </a></li>  </div> 
                             </ul> 
                         </div>
@@ -69,7 +69,7 @@
         <div class="card">
             <div class="imgbox">
               <img class="badge1"
-                src="/assests/images/che (3).jpg" width="400px" height="300px"
+                src="../images/che (3).jpg" width="400px" height="300px"
               />
             </div>
       
@@ -127,7 +127,7 @@
      
             </div>
             <div class="contaner">
-                <img src="/assests/images/ch1.jpg">
+                <img src="../images/ch1.jpg">
             </div>
         </div>
 
@@ -135,7 +135,7 @@
 
         <div class="blog_card">
             <div class="borders">
-                <img class="bad-1" src="/assests/images/badge-0-14.png">
+                <img class="bad-1" src="../images/badge-0-14.png">
             </div>
             <div class="blog_tag">
                 <p>
@@ -222,10 +222,10 @@
     <!--BADGES-->
     <h2 class="badge-head">OUR RECOGNITIONS</h2>
     <div class="badge_section">
-        <img class="img-1-bag" src="/assests/images/badge-4.png">
-        <img class="img-2-bag" src="/assests/images/badge-3.png">
-        <img class="img-3-bag" src="/assests/images/badge-2.png">
-        <img class="img-3-bag" src="/assests/images/badge-51.png">
+        <img class="img-1-bag" src="../images/badge-4.png">
+        <img class="img-2-bag" src="../images/badge-3.png">
+        <img class="img-3-bag" src="../images/badge-2.png">
+        <img class="img-3-bag" src="../images/badge-51.png">
     </div>
     </div>
     
@@ -242,25 +242,25 @@
         </div>
        <div class="div">
         <ul class="menu">
-            <li><a href='home.php' class="underline-hover-effect">HOME</a></li>
-            <li><a href='Aboutus.php' class="underline-hover-effect">ABOUT US</a></li>
-            <li><a href='services.php' class="underline-hover-effect">SERVICES</a></li>
-            <li><a href='tablereserve.php' class="underline-hover-effect">BOOK TABLE</a></li>
-            <li><a href='contact.php' class="underline-hover-effect">CONTACT US</a></li>
+            <li><a href='./home.php' class="underline-hover-effect">HOME</a></li>
+            <li><a href='./Aboutus.php' class="underline-hover-effect">ABOUT US</a></li>
+            <li><a href='./services.php' class="underline-hover-effect">SERVICES</a></li>
+            <li><a href='./tablereserve.php' class="underline-hover-effect">BOOK TABLE</a></li>
+            <li><a href='./contact.php' class="underline-hover-effect">CONTACT US</a></li>
         </ul>
         <div class="div">
         <ul class="menu1">
-            <li><a href='menu.php' class="underline-hover-effect">MENU</a></li>
-            <li><a href='application.php' class="underline-hover-effect">CAREER</a></li>
-            <li><a href='menu.php' class="underline-hover-effect">ORDER NOW</a></li>
-            <li><a href='terms&condition.php' class="underline-hover-effect">PRIVACY POLICY</a></li>
-            <li><a href='terms&condition.php' class="underline-hover-effect">TERMS & CONDITIONS</a></li>
+            <li><a href='./menu.php' class="underline-hover-effect">MENU</a></li>
+            <li><a href='./application.php' class="underline-hover-effect">CAREER</a></li>
+            <li><a href='./menu.php' class="underline-hover-effect">ORDER NOW</a></li>
+            <li><a href='./terms&condition.php' class="underline-hover-effect">PRIVACY POLICY</a></li>
+            <li><a href='./terms&condition.php' class="underline-hover-effect">TERMS & CONDITIONS</a></li>
         </ul>
         </div class="div">
         <footer class="footh" id="contact">
             <div class="foot">
               <div id="video">
-                <video src="/assests/images/Video Poster.mp4" autoplay loop controls muted width="420px">
+                <video src="../images/Video Poster.mp4" autoplay loop controls muted width="420px">
                     Your browser does not support the video tag.
                 </video>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15544.58337206321!2d80.1988317765176!3d13.089942002451888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5264078822719b%3A0xbda01077b89581e2!2sAnna%20Nagar%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1678468867344!5m2!1sen!2sin" width="420" height="200" style="border:0;padding-left: 100px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
@@ -272,10 +272,10 @@
    
     <div id="copy">
         <ul class="social_icon">
-            <li><a href="https://instagram.com/hot'N'spicy-restaurant"><img class="icon-img" src="/assests/images/ig-1.png" ></a></li>
-            <li><a href="https://facebook.com/hot'N'spicy-restaurant"><img src="/assests/images/fb-1.png" width="45px"></a></li>
-            <li><a href="https://www.youtube.com/account"><img class="icon-img" src="/assests/images/yt-1.png"></a></li>
-            <li><a href="https://twitter.com/hot'N'spicy-restaurant"><img  src="/assests/images/twi-1.png" width="45px"></a></li>
+            <li><a href="https://instagram.com/hot'N'spicy-restaurant"><img class="icon-img" src="../images/ig-1.png" ></a></li>
+            <li><a href="https://facebook.com/hot'N'spicy-restaurant"><img src="../images/fb-1.png" width="45px"></a></li>
+            <li><a href="https://www.youtube.com/account"><img class="icon-img" src="../images/yt-1.png"></a></li>
+            <li><a href="https://twitter.com/hot'N'spicy-restaurant"><img  src="../images/twi-1.png" width="45px"></a></li>
         </ul>
        
        <p id="margin">Copyright &copy; 2023 HOT 'N' SPICY</p>
@@ -285,10 +285,10 @@
     <script>
            var slideImg=document.getElementById("slideImg");
         var images = new Array(
-                        "/assests/images/pic3.jpg",
-                        "/assests/images/pic4.jpg",
-                        "/assests/images/pic5.jpg",
-                        "/assests/images/tan2.jpg"
+                        "../images/pic3.jpg",
+                        "../images/pic4.jpg",
+                        "../images/pic5.jpg",
+                        "../images/tan2.jpg"
         );
         var len = images.length;
         var i = 0;
@@ -322,11 +322,11 @@
 const darkmode = new Darkmode(options);
 darkmode.showWidget();
     </script>
-    <script src="/assests/js/preloader.js"></script>
+    <script src="../js/preloader.js"></script>
 
       <!-- SCROLL TOP -->
-      <img src="/assests/images/scroll up btn.png" alt="" id="scroll-top-btn">
-      <script src="assests/js/scroll.js"></script>
+      <img src="../images/scroll up btn.png" alt="" id="scroll-top-btn">
+      <script src="../js/scroll.js"></script>
       document.addEventListener('keydown', function(event) {
   // Perform an action when a key is pressed
   console.log('Key pressed:', event.key);
