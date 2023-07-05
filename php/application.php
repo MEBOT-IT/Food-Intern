@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apply Now | Hot 'N' Spicy</title>
-    <link rel="stylesheet" href="/assests/css/application.css">
-    <link rel="icon" type="image/png" href="/assests/images/front.png" />
+    <link rel="stylesheet" href="../css/application.css">
+    <link rel="icon" type="image/png" href="../images/front.png" />
 </head>
   <body>
     <!--
@@ -22,11 +22,11 @@
                       <div class="logo" id="logo">
                           <a href="home.php"> 
                           <div class="front">
-                          <img src="/assests/images/front.png" alt="Logo Front">
+                          <img src="../images/front.png" alt="Logo Front">
                           </div></a>
                           
                           <div class="back">
-                          <img src="/assests/images/back.png" alt="Logo Back">
+                          <img src="../images/back.png" alt="Logo Back">
                           </div>
                       </div>
                   </div> 
@@ -35,16 +35,16 @@
             
                       <div class="menu-icons">
                           <ul>
-                              <li><a href="home.php">HOME</a></li>
-                              <li><a href="/Aboutus.php">ABOUT US</a></li>    
-                              <li><a href="menu.php">MENU</a></li> 
-                              <li><a href="/services.php">SERVICES</a></li> 
-                              <li><a href="tablereserve.php">BOOK A TABLE</a></li>  
-                              <li><a href="contact.php">CONTACT</a></li> 
+                              <li><a href="../index.php">HOME</a></li>
+                              <li><a href="./Aboutus.php">ABOUT US</a></li>    
+                              <li><a href="./menu.php">MENU</a></li> 
+                              <li><a href="./services.php">SERVICES</a></li> 
+                              <li><a href="./tablereserve.php">BOOK A TABLE</a></li>  
+                              <li><a href="./contact.php">CONTACT</a></li> 
                               
                               <div class="header-img">
                                   <li><a href="login.php">
-                                      <img src="/assests/images/loginn - 1.png" width="35px" height="35px">
+                                      <img src="../images/loginn - 1.png" width="35px" height="35px">
                                   </a></li>  </div> 
                           </ul> 
                       </div>
@@ -55,7 +55,7 @@
       </div>
   </div>
       <!-- FORM -->
-      <form action="app1.php" method="POST">
+      <form action="../php/app1.php" method="POST">
       <h1 class="form-head1"> Application Form</h1>
       <h4 class="form-head2">Please complete and submit application to be considered.</h4>
 
@@ -100,7 +100,7 @@
     <div class="main_container">
       <div class="overlay1">
           <a href="tel:1818-022">
-              <img class="image-54" src="/assests/images/enquiry-13.png" alt="initial" width="70px">
+              <img class="image-54" src="../images/enquiry-13.png" alt="initial" width="70px">
           </a>
           <h4 class="section-title">Already applied? </h4>
           <h4 class="section-content">Please call for inquiry   </h4>
@@ -112,9 +112,9 @@
   <!-- Footer -->
   <div id="foot">
     <div id="media">
-        <a href="https://facebook.com/theriyala-restaurant" class="footer" ><img src="/assests/images/fb.webp" alt="FB logo" class="fb"></a>
-        <a href="https://instagram.com/theriyala-restaurant" class="footer"><img  class="insta" src="/assests/images/ig (2).webp" alt="Instagram logo"></a>
-        <a href="https://twitter.com/theriyala-restaurant" class="footer"><img src="/assests/images/twi.webp" alt="twitter logo" class="twitter"></a>
+        <a href="https://facebook.com/theriyala-restaurant" class="footer" ><img src="../images/fb.webp" alt="FB logo" class="fb"></a>
+        <a href="https://instagram.com/theriyala-restaurant" class="footer"><img  class="insta" src="../images/ig (2).webp" alt="Instagram logo"></a>
+        <a href="https://twitter.com/theriyala-restaurant" class="footer"><img src="../images/twi.webp" alt="twitter logo" class="twitter"></a>
     </div>
     
     <p id="margin">Copyright &copy; 2023 HOT 'N' SPICY</p>
